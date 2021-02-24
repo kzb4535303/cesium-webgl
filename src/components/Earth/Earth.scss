@@ -1,0 +1,20 @@
+html, body,#root {
+  padding:0;
+  margin:0;
+  height: 100%;
+  overflow: hidden;
+  font-size: 12px;
+}
+.home {
+  height: 100%;
+  position: relative;
+  .toolbar-box {
+    position: absolute;
+    top: 24px;
+    right: 48px;
+    z-index: 99;
+  }
+  .cesium-viewer-navigationContainer {
+    top: 100px;
+  }
+}

@@ -1,3 +1,4 @@
+@import '~antd/dist/antd.css';
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -6,8 +7,30 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.ant-dropdown {
+  color: #ffffff;
+  border: solid 1px #ffffff;
+}
+.ant-dropdown-menu {
+  background: rgba(0,0,0,.4)
+}
+.ant-dropdown-menu-item, .ant-dropdown-menu-submenu-title {
+  color: #ffffff;
+}
+.ant-dropdown-menu-item > a, .ant-dropdown-menu-submenu-title > a {
+  color: #ffffff;
+}
+.ant-card {
+  background: rgba(0,0,0,.6);
+}
+.ant-card-head {
+  color: #ffffff;
+}
+.ant-tree {
+  background: transparent;
+  color: #ffffff;
 }

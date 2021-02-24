@@ -1,0 +1,13 @@
+.toolbar-container {
+  background: transparent;
+  border: solid 1px #ffffff;
+  color: #ffffff;
+  display: flex;
+  .toolbar-option {
+    cursor: pointer;
+    margin-right: 8px;
+    &:nth-last-child(1) {
+      margin-right: 0;
+    }
+  }
+}
