@@ -36,7 +36,7 @@ export default function SourceTree() {
     const isLayerLoad = async (checkedKeys, info) => {
         let layerInfo  = info.node.props.data;
         if(info.checked) {
-            let loadedLayer
+            let loadedLayer;
             switch (layerInfo.type) {
                 case 'map-scene':
                     loadedLayer = await CesiumTools.addSceneLayer(window.viewerInstance,layerInfo);
